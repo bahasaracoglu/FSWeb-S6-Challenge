@@ -5,8 +5,7 @@ import Film from "./Film";
 function Filmler(props) {
   const { filmler, i, karakter } = props;
   return (
-    <h2 key={"x" + i}>
-      {karakter.name}
+    <h2>
       <p>
         {filmler
           .filter((film) => karakter.films.includes(film.title))

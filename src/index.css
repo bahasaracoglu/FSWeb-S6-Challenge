@@ -2,9 +2,54 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url("./images/sw-bg.jpg");
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-38_d0dbbfb4.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   background-position: left-top;
+  background-color: black;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+  padding: 0 20%;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.accordeon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(200, 200, 200, 0.6);
+  margin: 0.5rem auto;
+
+  border-radius: 1rem;
+}
+
+.accordeon__title {
+  padding: 1 2rem;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.accordeon__detail {
+  padding: 0.5rem 2rem 0.5rem;
+  background-color: rgba(207, 97, 97, 0.2);
+}
+.accordeon__detail p {
+  line-height: 1;
+}
+.accordeon__detail span {
+  font-weight: bold;
 }
