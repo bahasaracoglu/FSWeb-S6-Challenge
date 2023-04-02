@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Starjedi Regular";
+  src: url("fonts/Starjedi Regular.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,10 +25,16 @@ body {
   align-content: center;
   padding: 0 20%;
   min-height: 100vh;
+  font-family: "Starjedi Regular";
+  font-weight: lighter;
+}
+
+h1 {
+  color: rgba(200, 200, 200, 15);
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: normal;
 }
 
@@ -33,7 +44,7 @@ p {
   justify-content: flex-start;
   background-color: rgba(200, 200, 200, 0.6);
   margin: 0.5rem auto;
-
+  padding: 1%;
   border-radius: 1rem;
 }
 
@@ -41,15 +52,18 @@ p {
   padding: 1 2rem;
   font-weight: 900;
   font-size: larger;
+  color: gold;
 }
 
 .accordeon__detail {
   padding: 0.5rem 2rem 0.5rem;
   background-color: rgba(207, 97, 97, 0.2);
+  margin: 1%;
 }
 .accordeon__detail p {
   line-height: 1;
 }
 .accordeon__detail span {
   font-weight: bold;
+  color: rgb(70, 0, 0);
 }
